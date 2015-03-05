@@ -2,10 +2,6 @@
 
 Fluentd plugin to add empty array.
 
-## Use case
-When using Google Bigquery with schema include "repeated" mode columns and insert record without "repeated" mode columns key, failed insert.
-So this plugin support this case according to add such keys complement with "[]".
-
 ## Installation
 
 Add this line to your application's Gemfile:
